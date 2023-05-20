@@ -1,10 +1,12 @@
-# Personal Tailwindcss Themes
+# Personal TailwindCSS Themes
 > This project is not a script or an extension. It is just an approach to use custom themes inside tailwindcss
 You can try it [online](https://nuxt-tailwindcss-themes-ahmedashrafaz.vercel.app/)
 ## Overview
 At the begnning of each project, I'm always stuck at the phase of choosing the font and the colors of the website. I can have so many [Color Palettes](https://colorhunt.co/) but I don't know which color to use for text and which for the background etc.
 
 So, I created this project to save all my themes in. It's like a `.dotfile` but for my themes configuration.
+
+I also created `ash-input` and `ash-button` (ash for my name 🌚), custom components, that takes the color as a prop to preview the different colors used in each theme. If the color doesn't exist, then you will see the component colors with the css defaults (will be handled better later).
 
 This project uses [tailwindcss](https://tailwindcss.com/) to be able to integrate the custom themes with the project.
 
@@ -58,7 +60,7 @@ Also, you can use any color format suits the css such as rgb(), rgba(), hsl(), o
 
 ## Trying it locally
 1. Clone the repo
-    ```bash
+    ```zsh
     git clone git@github.com:AhmedAshrafAZ/tailwindcss-themes.git
     ```
 2. Install dependencies (I use yarn)
@@ -76,10 +78,12 @@ Also, you can use any color format suits the css such as rgb(), rgba(), hsl(), o
 
 - [x] Create custom components to preview theme colors 
 
+- [x] Add some [DaisyUI](https://daisyui.com/docs/colors/) themes
+
 - [ ] Add more themes
 
 - [ ] Convert all colors to one format (maybe hex).
 
 - [ ] Import and Export themes
 
-- [ ] Auto generate the `content` and `focus` colors if the main color is chosen
+- [ ] Auto generate the `content` and `focus` colors if the main color is chosen. Inspired by [@adhamfarrag](https://github.com/adhamfarrag) [Example Repo](https://github.com/adhamfarrag/nuxt-tailwind-themes-example)
