@@ -35,6 +35,42 @@ const dark: Theme = {
     "--color-error-content": "hsl(0, 100%, 14%)",
 }
 
+const light: Theme = {
+    "--color-primary": "hsl(258.89, 94.378%, 51.176%)",
+    "--color-primary-content": "hsl(0, 0%, 100%)",
+    "--color-primary-focus": "hsl(258.89, 94.378%, 40.941%)",
+
+    "--color-secondary": "hsl(314, 100%, 47.059%)",
+    "--color-secondary-content": "hsl(0, 0%, 100%)",
+    "--color-secondary-focus": "hsl(314, 100%, 37.647%)",
+
+    "--color-accent": "hsl(174, 60%, 50.98%)",
+    "--color-accent-content": "hsl(174.71, 43.59%, 15.294%)",
+    "--color-accent-focus": "hsl(174, 60%, 40.784%)",
+
+    "--color-neutral": "hsl(219, 14.085%, 27.843%)",
+    "--color-neutral-content": "hsl(0, 0%, 100%)",
+    "--color-neutral-focus": "hsl(219, 14.085%, 22.275%)",
+
+    "--color-base": "hsl(0, 0%, 100%)",
+    "--color-base-content": "hsl(215, 27.907%, 16.863%)",
+    "--color-base-darker": "hsl(0, 0%, 94.902%)",
+    "--color-base-darkest": "hsl(180, 1.9608%, 90%)",
+
+    "--color-info": "hsl()",
+    "--color-info-content": "hsl()",
+
+    "--color-success": "hsl(158, 64%, 52%)",
+    "--color-success-content": "hsl(158, 100%, 10%)",
+
+    "--color-warning": "hsl(43, 96%, 56%)",
+    "--color-warning-content": "hsl(43, 100%, 11%)",
+
+    "--color-error": "hsl(0, 91%, 71%)",
+    "--color-error-content": "hsl(0, 100%, 14%)"
+}
+
 export default {
     dark,
+    light
 }
