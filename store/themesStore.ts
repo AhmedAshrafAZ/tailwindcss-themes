@@ -6,10 +6,14 @@ export const useThemesStore = defineStore({
   id: 'themesStore',
   state: () => ({
     theme: '' as keyof typeof allThemes,
+    color: '',
   }),
   getters: {
     currentTheme(state) {
       return state.theme;
+    },
+    currentColor(state) {
+      return state.color;
     },
     getAllThemes() {
       return Object.keys(allThemes)
@@ -19,7 +23,11 @@ export const useThemesStore = defineStore({
     setTheme(themeName: keyof typeof allThemes) {
       this.removeThemeProperties();
       this.theme = themeName;
+      this.color = 'primary';
       this.addThemeProperties();
+    },
+    setColor(colorName: string) {
+      this.color = colorName;
     },
     removeThemeProperties() {
       if (!this.theme) return;
