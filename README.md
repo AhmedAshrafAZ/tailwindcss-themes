@@ -1,6 +1,8 @@
 # Personal TailwindCSS Themes
 > This project is not a script or an extension. It is just an approach to use custom themes inside tailwindcss
-You can try it [online](https://nuxt-tailwindcss-themes-ahmedashrafaz.vercel.app/)
+
+You can [try it online](https://nuxt-tailwindcss-themes.vercel.app/)
+
 ## Overview
 At the begnning of each project, I'm always stuck at the phase of choosing the font and the colors of the website. I can have so many [Color Palettes](https://colorhunt.co/) but I don't know which color to use for text and which for the background etc.
 
