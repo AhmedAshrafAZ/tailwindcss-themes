@@ -6,7 +6,7 @@ const { currentTheme } = storeToRefs(useThemesStore());
 
 
 <template>
-  <div :data-theme="currentTheme" class="p-2 h-screen w-full flex flex-row gap-2">
+  <div :data-theme="currentTheme" class="p-2 h-screen w-full flex flex-row gap-2 bg-neutral">
     <slot />
   </div>
 </template>
