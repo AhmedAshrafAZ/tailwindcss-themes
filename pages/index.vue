@@ -12,7 +12,7 @@ onMounted(() => {
 
 <template >
     <div
-        class="bg-base-darker w-1/6 h-full rounded-lg border-2 border-base-darkest p-4 overflow-y-scroll flex flex-col collapse lg:visible">
+        class="bg-base-darker w-1/6 h-full rounded-lg border-2 border-base-darkest p-4 overflow-y-scroll hidden lg:flex flex-col lg:visible">
         <button
             :class="`${currentTheme === theme ? 'bg-primary text-primary-content' : 'bg-base-100 text-base-content'} p-2 m-2 rounded-xl`"
             @click="setTheme(theme as typeof currentTheme.value)" v-for="theme in getAllThemes">{{ theme }}</button>
